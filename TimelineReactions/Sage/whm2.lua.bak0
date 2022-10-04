@@ -1,0 +1,898 @@
+local tbl = 
+{
+	
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_AsylumAuto",
+							uuid = "a81bd653-8e5f-16c9-b357-81abc4f815b5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 12,
+				name = "asylum",
+				timelineIndex = 1,
+				uuid = "a4910b0f-47a0-1f4c-b7a9-694bdf641a0e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_Assize",
+							uuid = "9d562cf2-f79f-46fa-9d34-2fa91573cd58",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 12,
+				name = "ass",
+				timelineIndex = 1,
+				timerOffset = -9,
+				uuid = "9416b01c-f105-419e-bb53-827b061497ae",
+				version = 2,
+			},
+		},
+	}, 
+	[9] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_PlenaryIndulgence",
+							uuid = "15396a98-5449-8077-9b03-c12b6e6ceb73",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
+							uuid = "80d5bc55-11f4-d830-ab5a-081ae58fc101",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 48.1,
+				name = "plen ind",
+				timelineIndex = 9,
+				timerOffset = -6,
+				uuid = "efb92332-0e50-0974-a847-327a0993b46f",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_AquaveilMouse",
+							targetType = "Target of Current Target",
+							uuid = "0c8c9ff3-d2dc-dfdf-8921-85af8f1ff2a3",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 48.1,
+				name = "aqua",
+				timelineIndex = 9,
+				timerOffset = -5,
+				uuid = "907be5f3-fa0d-5f43-9f31-f4bf5fbbecba",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_Assize",
+							uuid = "9d562cf2-f79f-46fa-9d34-2fa91573cd58",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 48.1,
+				name = "ass",
+				timelineIndex = 9,
+				timerOffset = 4,
+				uuid = "076958eb-ea80-a623-a5b0-ddce5b6e1e93",
+				version = 2,
+			},
+		},
+	},
+	[17] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Hotbar_LockFace",
+							uuid = "67147aba-91d4-0bb2-827f-dcb8901aa587",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 126.2,
+				name = "face away",
+				timelineIndex = 17,
+				timerOffset = -3,
+				uuid = "c8e27634-64d8-fe96-922f-c554b2df3c4f",
+				version = 2,
+			},
+		},
+	},
+	[25] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_PlenaryIndulgence",
+							uuid = "fccad6c0-e65a-c726-8470-1fce768ad115",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
+							uuid = "6faebbfa-85a9-416d-82da-eec64cb4d886",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 150.5,
+				name = "plen+rap",
+				timelineIndex = 25,
+				timerOffset = -5,
+				uuid = "52b403df-65f5-309b-a368-d6a5285aad83",
+				version = 2,
+			},
+		},
+	},
+	[26] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Hotbar_Surecast",
+							uuid = "c115ce65-16c0-542b-8f2e-b15f01bf27ee",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 200,
+				name = "surecast",
+				timelineIndex = 26,
+				timerOffset = -3,
+				uuid = "7704f50d-22fe-9252-99e5-fd8c7f085f0f",
+				version = 2,
+			},
+		},
+	},
+	[27] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							castPosX = 100.53226470947,
+							castPosZ = 100.3176651001,
+							gVar = "ACR_RikuWHM2_Healbar_Lilybell",
+							uuid = "27317047-e83b-84fb-9ecd-ce2be93a6f5f",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 205.9,
+				name = "liturgy",
+				timelineIndex = 27,
+				timerOffset = -5,
+				uuid = "fe5803d5-6a0e-5622-8ccd-bb330a676eed",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+	},
+	[28] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Hotbar_Temperance",
+							uuid = "28203d6a-fdb3-26fa-b61e-23fd6411cfec",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 206.9,
+				name = "temp",
+				timelineIndex = 28,
+				timerOffset = -2,
+				uuid = "4b4eb78c-cf2a-1fa2-8081-31cb3c675887",
+				version = 2,
+			},
+		},
+	},
+	[32] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
+							uuid = "74a76ebe-e86f-5a30-9faa-2f252e271172",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 211.2,
+				name = "rapt",
+				timelineIndex = 32,
+				timerOffset = -2,
+				uuid = "2d22c7c6-9ee9-f260-852e-0d71401c9609",
+				version = 2,
+			},
+		},
+	},
+	[35] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_Lilybell",
+							uuid = "90910197-f032-cc8f-9c4a-30526f1d5cb3",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 219.5,
+				name = "lilu pop",
+				timelineIndex = 35,
+				timerOffset = -2,
+				uuid = "26113dee-f47c-60b6-863e-a9d9877652cd",
+				version = 2,
+			},
+		},
+	},
+	[38] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							endIfUsed = true,
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_Assize",
+							uuid = "9d562cf2-f79f-46fa-9d34-2fa91573cd58",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 226.7,
+				name = "ass",
+				timelineIndex = 38,
+				timerOffset = -3,
+				uuid = "29c1f256-a912-159d-a2e7-d3873632c3a3",
+				version = 2,
+			},
+		},
+	},
+	[41] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_PlenaryIndulgence",
+							uuid = "40c46c45-1610-0569-a1a9-d91712614c52",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
+							uuid = "74f60a5d-f161-428b-92e0-a8f4f62d7b62",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 314.3,
+				name = "rap + plen",
+				timelineIndex = 41,
+				timerOffset = -1,
+				uuid = "56166dd6-b693-7047-bbc2-ca87d396926e",
+				version = 2,
+			},
+		},
+	},
+	[42] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
+							uuid = "dffec8d7-a59f-0535-ab8b-7d1eec6b779f",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 315.1,
+				name = "rap",
+				timelineIndex = 42,
+				timerOffset = 1,
+				uuid = "8f1c859d-707b-aeac-88fa-9d5af64b049a",
+				version = 2,
+			},
+		},
+	},
+	[43] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_Assize",
+							uuid = "980718de-d243-b4ab-9c44-9886867cc9c5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 318.4,
+				name = "ass",
+				timelineIndex = 43,
+				timerOffset = -4,
+				uuid = "a231a5a5-a2e1-9bae-84ce-0e30a963e964",
+				version = 2,
+			},
+		},
+	},
+	[44] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
+							uuid = "bccdaec7-408b-2112-b061-f23a28b2e036",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 319.2,
+				name = "rap",
+				timelineIndex = 44,
+				timerOffset = -2,
+				uuid = "a9068aeb-ea5e-bde9-8631-2cb5167bc4e6",
+				version = 2,
+			},
+		},
+	},
+	[47] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_AsylumAuto",
+							uuid = "ecfadc3d-2260-1a9c-a2f7-7f09f7267f05",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 343.6,
+				name = "assy",
+				timelineIndex = 47,
+				uuid = "69a5ed94-5da0-26a1-bf8d-1586096f1080",
+				version = 2,
+			},
+		},
+	},
+	[51] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Hotbar_ThinAir",
+							uuid = "3b9b2f97-74cd-f7d3-9623-2448a112345c",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_Medica2",
+							uuid = "de73e48e-1ec2-e914-8293-7b69f2e26388",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 400,
+				name = "medi 2",
+				timelineIndex = 51,
+				uuid = "df52e325-4a17-595d-a868-053e3f349a66",
+				version = 2,
+			},
+		},
+	},
+	[53] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Hotbar_Temperance",
+							uuid = "d98b2ab5-5a2a-e3a8-8979-1a79c971ac8d",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 411.9,
+				name = "temp",
+				timelineIndex = 53,
+				uuid = "680f2eca-f704-01e6-969b-8a6eefb34190",
+				version = 2,
+			},
+		},
+	},
+	[54] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Hotbar_ThinAir",
+							uuid = "222010ff-1c92-a861-b17f-1f0328650427",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_Medica2",
+							uuid = "60f1c113-7b5b-222d-a43c-0ffa117a679d",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 415.3,
+				name = "thin med2",
+				timelineIndex = 54,
+				uuid = "df360e8f-0794-571a-8a96-649c7c468265",
+				version = 2,
+			},
+		},
+	},
+	[56] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
+							uuid = "1a60766c-7b7c-fee3-bc8f-7013b847fdea",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuWHM2_Healbar_Assize",
+							uuid = "e7f93b02-7d8e-0052-a539-5f88fb5cc861",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_PlenaryIndulgence",
+							uuid = "2997650c-c9d6-3d3c-94f0-631b7445a93a",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 431.3,
+				name = "rap ",
+				timelineIndex = 56,
+				timerOffset = -2,
+				uuid = "d7619d5c-be41-b5e3-9929-4deae14bc282",
+				version = 2,
+			},
+		},
+	},
+	[58] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
+							uuid = "4d678376-68b2-dd1f-9d43-423a115d7078",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 443.9,
+				name = "rao",
+				timelineIndex = 58,
+				uuid = "a52fe8ec-3ad1-10fd-ac80-15a07b71b947",
+				version = 2,
+			},
+		},
+	},
+	[61] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_AsylumAuto",
+							uuid = "ca3bfab6-f0b6-c3c7-9287-ce8bd6dc864a",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 452.3,
+				name = "assyl",
+				timelineIndex = 61,
+				timerOffset = -2,
+				uuid = "664e56bd-35d1-0ec7-986f-d444ad9aeb78",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Healbar_AquaveilMouse",
+							targetType = "Target of Current Target",
+							uuid = "60288b22-f9ad-f247-bcc1-2f267ef8e4ab",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 452.3,
+				name = "aquav",
+				timelineIndex = 61,
+				uuid = "952f5b62-8dac-d520-b0b6-54b9aefc106f",
+				version = 2,
+			},
+		},
+	},
+	inheritedProfiles = 
+	{
+	},
+	mapID = 1088,
+	version = 2,
+}
+
+
+
+return tbl
