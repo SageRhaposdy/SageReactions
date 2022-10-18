@@ -498,7 +498,7 @@ local tbl =
 				mechanicTime = 159.6,
 				name = "succor",
 				timelineIndex = 23,
-				timerOffset = -3,
+				timerOffset = -5,
 				uuid = "3c146f7d-6b8b-b087-be61-adc5dea5d2b5",
 				version = 2,
 			},
